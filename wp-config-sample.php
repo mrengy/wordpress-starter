@@ -7,6 +7,8 @@ define('DB_NAME',     'db_name');
 define('DB_USER',     'db_user');
 define('DB_PASSWORD', 'db_pass');
 define('DB_HOST',     'db_host');
+// on local install, use the below for DB_HOST. "localhost" doesn't work.
+// define('DB_HOST', '127.0.0.1:8889’);
 define('DB_CHARSET',  'utf8mb4');
 define('DB_COLLATE',  '');
 
@@ -66,8 +68,8 @@ define( 'WP_AUTO_UPDATE_CORE', 'minor' );
  */
 
 
-define('WP_DEBUG', false);
-define('WP_DEBUG_LOG', false);
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', false);
 define('SAVEQUERIES', false);
 
