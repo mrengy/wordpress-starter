@@ -8,7 +8,7 @@ define('DB_USER',     'db_user');
 define('DB_PASSWORD', 'db_pass');
 define('DB_HOST',     'db_host');
 // on local install, use the below for DB_HOST. "localhost" doesn't work.
-// define('DB_HOST', '127.0.0.1:8889’);
+// define('DB_HOST', '127.0.0.1:8889');
 define('DB_CHARSET',  'utf8mb4');
 define('DB_COLLATE',  '');
 
