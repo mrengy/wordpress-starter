@@ -1,6 +1,6 @@
 A best-of-all-worlds approach to version control and automatic WordPress updates. Use this as a template to begin a WordPress project.
 
-Credit to Matías Halles - inspired by [this approach](https://medium.com/@halles/wordpress-composer-git-1ccf29a9827a).
+Credit to Matías Halles - inspired by [this approach](https://medium.com/@halles/wordpress-composer-git-1ccf29a9827a), modified to use a single repository, rather than putting the theme in a separate repository and treating as a dependency.
 
 # Setup instructions
 Install [Composer](https://getcomposer.org/) on your local machine.
