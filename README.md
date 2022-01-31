@@ -11,11 +11,11 @@ Locally clone the repository you forked. Give it a name representing the project
 
 Make and save any changes you want to make to composer.json - add / remove plugins you want, change WordPress core version, etc.
 
-Run php locally using something like [XAMPP](https://www.apachefriends.org/download.html) or [MAMP](https://www.mamp.info). Alternately, use [Local](https://localwp.com/), which may make some of the following steps different - they are based on MAMP.
+Run php locally using something like [MAMP](https://www.mamp.info) or [XAMPP](https://www.apachefriends.org/download.html). Alternately, use [Local](https://localwp.com/), which may make some of the following steps different - they are based on MAMP.
 
 Using a command line tool (like Terminal), go into the root of the local repository and run `composer update` per the [Composer Basic Usage guidelines](https://getcomposer.org/doc/01-basic-usage.md). This will install WordPress and any dependencies (plugins) you specified in composer.json. Note that this uses a different folder structure than a typical WordPress folder structure.
 
-[Create a local MySQL database](https://www.betterhostreview.com/create-mysql-database-phpmyadmin-computer.html) using XAMPP or MAMP and create a user with access to the new database. Note the database name, username, and password.
+[Create a local MySQL database](https://www.betterhostreview.com/create-mysql-database-phpmyadmin-computer.html) using MAMP (or something like it) and create a user with access to the new database. Note the database name, username, and password.
 
 Make a copy of wp-config.sample.php and rename it wp-config.php. Set all the definitions in wp-config.php as you would for a normal WordPress installation (including the database details from earlier). Ensure that `WP_SITEURL` and `WP_HOME` match the location where you cloned the repository locally.
 
